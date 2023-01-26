@@ -12,12 +12,13 @@
 <body>
     <div class="main">
         <div id="calculator">
-            <div id="screen">
-                <p id="result"></p>
-            </div>
+            <div id="screen-div">
+                    <div class="previous-operand"></div>
+                    <div class="current-operand"></div>
+                </div>
 
             <div id="removers">
-                <button class="clear">CLEAR</button>
+                <button class="clear" id="clear">CLEAR</button>
                 <button class="clear" id="del">DELETE</button>
             </div>
 
@@ -37,10 +38,9 @@
                 <button class="btn" data-number>3</button>
                 <button class="btn" data-operator>x</button>
 
-                <button class="btn" data-operator>x</button>
                 <button class="btn" data-number>0</button>
-                <button class="btn" data-operator>=</button>
                 <button class="btn" data-operator>/</button>
+                <button class="btn" data-equals>=</button>
 
             </div>
 
